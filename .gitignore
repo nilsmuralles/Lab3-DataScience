@@ -1,0 +1,16 @@
+# Dataset (descargado vía kagglehub, ~1.3GB — no se versiona)
+asl-alphabet/
+
+# Datos preprocesados generados por el notebook (arrays .npz pesados)
+processed/
+*.npz
+
+# Python / Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Entornos virtuales
+.venv/
+venv/
+env/
